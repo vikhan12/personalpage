@@ -12,37 +12,28 @@ nav {
 }
 
 .navigation {
-
     max-width: 1100px;
-
     list-style: none;
     margin: 0;
-
     background: #384250;
-
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
-
     -webkit-flex-flow: row wrap;
     justify-content: flex-start;
 }
 
 .navigation a {
     text-decoration: none;
-
     text-transform: uppercase;
-
     display: block;
     padding-right: 2em;
     padding-top: 1em;
     padding-bottom: 1em;
     color: white;
 }
-
-
 
 @media all and (max-width: 800px) {
     .navigation {
@@ -54,7 +45,6 @@ nav {
     .navigation {
         -webkit-flex-flow: column wrap;
         flex-flow: column wrap;
-
         padding: 0;
     }
 
@@ -64,7 +54,6 @@ nav {
         border-top: 1px solid rgba(255, 255, 255, 0.3);
         border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     }
-
 
     .navigation li:last-of-type a {
         border-bottom: none;
@@ -77,9 +66,6 @@ header {
     /*background-image: url("/toppicture.jpg");*/
 }
 
-
-
-
 main {
     text-align: center;
     max-width: 1100px;
@@ -89,7 +75,6 @@ main {
 h4 {
     font-size: 35px;
     color: #384250;
-
 }
 
 .container {
@@ -173,8 +158,7 @@ h4 {
     padding: 30px;
 }
 
-input[type=text],
-input[type=email] {
+input[type=text], input[type=email] {
     width: 350px;
     padding: 12px 20px;
     font-size: 14px;
@@ -187,15 +171,13 @@ input[type=email] {
 }
 
 @media all and (max-width: 465px) {
-    input[type=text],
-    input[type=email] {
+    input[type=text], input[type=email] {
         width: 250px;
     }
 }
 
 @media all and (max-width: 380px) {
-    input[type=text],
-    input[type=email] {
+    input[type=text], input[type=email] {
         width: 200px;
     }
 }
@@ -206,9 +188,11 @@ footer {
     display: inline-block;
     padding-top: 23px;
 }
-footer ul li{
-    color:white;
+
+footer ul li {
+    color: white;
 }
+
 #foot {
     margin-left: 15px;
     font-size: 13px;
